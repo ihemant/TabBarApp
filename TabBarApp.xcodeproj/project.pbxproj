@@ -18,6 +18,8 @@
 		8639EAA716405B5B00305C93 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8639EAA616405B5B00305C93 /* Default-568h@2x.png */; };
 		8639EAAA16405B5B00305C93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8639EAA916405B5B00305C93 /* ViewController.m */; };
 		8639EAAD16405B5B00305C93 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8639EAAB16405B5B00305C93 /* ViewController.xib */; };
+		8639EAB616405BF400305C93 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8639EAB416405BF400305C93 /* TabBarViewController.m */; };
+		8639EAB716405BF400305C93 /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8639EAB516405BF400305C93 /* TabBarViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		8639EAA816405B5B00305C93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8639EAA916405B5B00305C93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8639EAAC16405B5B00305C93 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		8639EAB316405BF400305C93 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		8639EAB416405BF400305C93 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		8639EAB516405BF400305C93 /* TabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				8639EAA916405B5B00305C93 /* ViewController.m */,
 				8639EAAB16405B5B00305C93 /* ViewController.xib */,
 				8639EA9716405B5B00305C93 /* Supporting Files */,
+				8639EAB316405BF400305C93 /* TabBarViewController.h */,
+				8639EAB416405BF400305C93 /* TabBarViewController.m */,
+				8639EAB516405BF400305C93 /* TabBarViewController.xib */,
 			);
 			path = TabBarApp;
 			sourceTree = "<group>";
@@ -163,6 +171,7 @@
 				8639EAA516405B5B00305C93 /* Default@2x.png in Resources */,
 				8639EAA716405B5B00305C93 /* Default-568h@2x.png in Resources */,
 				8639EAAD16405B5B00305C93 /* ViewController.xib in Resources */,
+				8639EAB716405BF400305C93 /* TabBarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				8639EA9D16405B5B00305C93 /* main.m in Sources */,
 				8639EAA116405B5B00305C93 /* AppDelegate.m in Sources */,
 				8639EAAA16405B5B00305C93 /* ViewController.m in Sources */,
+				8639EAB616405BF400305C93 /* TabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +267,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TabBarApp/TabBarApp-Prefix.pch";
 				INFOPLIST_FILE = "TabBarApp/TabBarApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -268,6 +279,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TabBarApp/TabBarApp-Prefix.pch";
 				INFOPLIST_FILE = "TabBarApp/TabBarApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -292,6 +304,7 @@
 				8639EAB216405B5B00305C93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

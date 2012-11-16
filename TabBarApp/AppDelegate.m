@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  TabBarApp
 //
-//  Created by Mritunjay Kumar on 31/10/12.
-//  Copyright (c) 2012 Mritunjay Kumar. All rights reserved.
+//  Created by hemant Kumar on 31/10/12.
+//  Copyright (c) 2012 hemant Kumar. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -11,14 +11,27 @@
 #import "ViewController.h"
 
 @implementation AppDelegate
+@synthesize navController = _navController;
+@synthesize window = _window;
+@synthesize viewController = _viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    
+    self.navController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    self.window.rootViewController = self.navController;
+    
+    //  self.window.rootViewController = self.viewController;
+    
+    self.navController.navigationBarHidden = YES;
     [self.window makeKeyAndVisible];
+
+//    
+//    self.window.rootViewController = self.viewController;
+//    [self.window makeKeyAndVisible];
     return YES;
 }
 
