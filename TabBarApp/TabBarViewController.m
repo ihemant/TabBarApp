@@ -53,7 +53,7 @@
    // [delegate.navController pushViewController:viewController animated:YES];
     
    // [self presentModalViewController:viewController animated:TRUE];
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissModalViewControllerAnimated:NO];
     
 }
 

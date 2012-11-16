@@ -33,6 +33,7 @@
    // AppDelegate *delegate =(AppDelegate *)[[UIApplication sharedApplication] delegate];
     TabBarViewController *tabBarController = [[TabBarViewController alloc] initWithNibName:@"TabBarViewController" bundle:nil];
    // [delegate.navController pushViewController:tabBarController animated:YES];
+    
 
     [self presentModalViewController:tabBarController animated:TRUE];
     
