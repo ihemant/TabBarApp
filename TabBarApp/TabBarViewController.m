@@ -61,4 +61,15 @@
     [self setTabBar:nil];
     [super viewDidUnload];
 }
+
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
+{
+    NSLog(@"selected index--->%d",self.tabBarController.selectedIndex);
+    if (self.tabBarController.selectedIndex==0) {
+       // NSArray* items = [self.tabBarController.tabBar items];
+       // [[items objectAtIndex:0] setImage:[UIImage imageNamed:@"cart-tab.png"]];
+        [[[[[self tabBarController] tabBar] items] objectAtIndex:2]setImage:[UIImage imageNamed:@"cart-tab.png"]];
+    }
+}
+
 @end

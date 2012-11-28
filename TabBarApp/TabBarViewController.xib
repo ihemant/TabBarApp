@@ -39,7 +39,7 @@
 			<object class="IBUIView" id="191373211">
 				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
-				<string key="NSFrame">{{0, 20}, {320, 548}}</string>
+				<string key="NSFrame">{{0, 20}, {320, 460}}</string>
 				<reference key="NSSuperview"/>
 				<string key="NSHuggingPriority">{250, 278}</string>
 				<object class="NSColor" key="IBUIBackgroundColor">
@@ -50,23 +50,6 @@
 					</object>
 				</object>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
-				<object class="IBUIScreenMetrics" key="IBUISimulatedDestinationMetrics" id="895433105">
-					<string key="IBUISimulatedSizeMetricsClass">IBUIScreenMetrics</string>
-					<object class="NSMutableDictionary" key="IBUINormalizedOrientationToSizeMap">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<array key="dict.sortedKeys">
-							<integer value="1"/>
-							<integer value="3"/>
-						</array>
-						<array key="dict.values">
-							<string>{320, 568}</string>
-							<string>{568, 320}</string>
-						</array>
-					</object>
-					<string key="IBUITargetRuntime">IBCocoaTouchFramework</string>
-					<string key="IBUIDisplayName">Retina 4 Full Screen</string>
-					<int key="IBUIType">2</int>
-				</object>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
 			<object class="IBUITabBarController" id="532692790">
@@ -76,7 +59,6 @@
 					<int key="IBUIInterfaceOrientation">1</int>
 					<int key="interfaceOrientation">1</int>
 				</object>
-				<reference key="IBUISimulatedDestinationMetrics" ref="895433105"/>
 				<bool key="IBUIWantsFullScreenLayout">YES</bool>
 				<bool key="IBUIDefinesPresentationContext">YES</bool>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -117,7 +99,7 @@
 								<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 							</object>
 						</array>
-						<string key="NSFrameSize">{320, 519}</string>
+						<string key="NSFrameSize">{320, 431}</string>
 						<reference key="NSSuperview"/>
 						<reference key="NSNextKeyView" ref="1014126987"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -130,9 +112,9 @@
 					</object>
 					<object class="IBUITabBarItem" key="IBUITabBarItem" id="264975527">
 						<string key="IBUITitle">View4</string>
-						<object class="NSCustomResource" key="IBUIImage" id="225225998">
+						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">Default-568h@2x.png</string>
+							<string key="NSResourceName">112-group.png</string>
 						</object>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					</object>
@@ -206,7 +188,7 @@
 									</object>
 								</object>
 							</array>
-							<string key="NSFrameSize">{320, 519}</string>
+							<string key="NSFrameSize">{320, 431}</string>
 							<reference key="NSNextKeyView" ref="594981500"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSHuggingPriority">{150, 170}</string>
@@ -221,7 +203,7 @@
 							<string key="IBUITitle">View1</string>
 							<object class="NSCustomResource" key="IBUIImage">
 								<string key="NSClassName">NSImage</string>
-								<string key="NSResourceName">Default.png</string>
+								<string key="NSResourceName">cart-tab.png</string>
 							</object>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
@@ -279,7 +261,7 @@
 									<reference key="IBUIFont" ref="838913748"/>
 								</object>
 							</array>
-							<string key="NSFrameSize">{320, 519}</string>
+							<string key="NSFrameSize">{320, 431}</string>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<object class="NSColor" key="IBUIBackgroundColor">
 								<int key="NSColorSpace">3</int>
@@ -290,6 +272,10 @@
 						</object>
 						<object class="IBUITabBarItem" key="IBUITabBarItem" id="156214418">
 							<string key="IBUITitle">View2</string>
+							<object class="NSCustomResource" key="IBUIImage">
+								<string key="NSClassName">NSImage</string>
+								<string key="NSResourceName">icon_more.png</string>
+							</object>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
 						<reference key="IBUIParentViewController" ref="532692790"/>
@@ -325,7 +311,7 @@
 									<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 								</object>
 							</array>
-							<string key="NSFrameSize">{320, 519}</string>
+							<string key="NSFrameSize">{320, 431}</string>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<object class="NSColor" key="IBUIBackgroundColor">
 								<int key="NSColorSpace">3</int>
@@ -336,7 +322,10 @@
 						</object>
 						<object class="IBUITabBarItem" key="IBUITabBarItem" id="660238896">
 							<string key="IBUITitle">view3</string>
-							<reference key="IBUIImage" ref="225225998"/>
+							<object class="NSCustomResource" key="IBUIImage">
+								<string key="NSClassName">NSImage</string>
+								<string key="NSResourceName">report-tab.png</string>
+							</object>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
 						<reference key="IBUIToolbarItems" ref="0"/>
@@ -353,7 +342,7 @@
 				<object class="IBUITabBar" key="IBUITabBar" id="181111920">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">258</int>
-					<string key="NSFrame">{{0, 519}, {320, 49}}</string>
+					<string key="NSFrame">{{0, 431}, {320, 49}}</string>
 					<reference key="NSSuperview"/>
 					<string key="NSReuseIdentifierKey">_NS:29</string>
 					<object class="NSColor" key="IBUIBackgroundColor">
@@ -381,6 +370,14 @@
 						<reference key="destination" ref="191373211"/>
 					</object>
 					<int key="connectionID">64</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="532692790"/>
+						<reference key="destination" ref="372490531"/>
+					</object>
+					<int key="connectionID">71</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -597,7 +594,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">70</int>
+			<int key="maxID">71</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
@@ -609,8 +606,10 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="Default-568h@2x.png">{640, 1136}</string>
-			<string key="Default.png">{320, 480}</string>
+			<string key="112-group.png">{32, 21}</string>
+			<string key="cart-tab.png">{26, 19}</string>
+			<string key="icon_more.png">{35, 22}</string>
+			<string key="report-tab.png">{24, 29}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">1926</string>
 	</data>
